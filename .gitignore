@@ -1,0 +1,35 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+venv/
+env/
+
+# UV specific
+.uv/
+uv.lock
+
+# Output files (your scraped data)
+*.csv
+*.json
+quotes.csv
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
