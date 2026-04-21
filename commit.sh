@@ -1,3 +1,4 @@
-git add .                                                                                                                                                                           
+git add .                                                                                                                                                                               
 git commit -m "new update"
-git push
+git pull --rebase origin main
+git push origin main --force
