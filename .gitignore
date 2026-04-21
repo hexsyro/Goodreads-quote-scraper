@@ -1,35 +1,77 @@
-# Python-generated files
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[oc]
+*.py[cod]
+*$py.class
+*.so
+
+# C extensions
+*.c
+
+# Distribution / packaging
+.Python
 build/
 dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
 wheels/
-*.egg-info
+*.egg-info/
+.installed.cfg
+*.egg
 
 # Virtual environments
-.venv
+.venv/
 venv/
 env/
+ENV/
 
-# UV specific
+# UV
 .uv/
 uv.lock
 
-# Output files (your scraped data)
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Playwright browsers
+.playwright/
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
+.env.*
+
+# Output files (scraped data)
 *.csv
 *.json
 quotes.csv
+authors_with_quotes.json
 
-# IDE files
+# IDE
 .vscode/
 .idea/
 *.swp
 *.swo
-.DS_Store
+*~
 
-# OS files
+# OS
+.DS_Store
 Thumbs.db
-.DS_Store
-
-# Logs
-*.log

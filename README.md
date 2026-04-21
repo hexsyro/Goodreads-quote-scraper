@@ -1,43 +1,63 @@
 # Goodreads Quote Scraper
 
-Simple web scraper that extracts quotes from Goodreads.
+A Python web scraper that extracts quotes from Goodreads and saves them to CSV format.
+
+## Features
+
+- Scrapes quotes from Goodreads author pages
+- Extracts quote text, author, and tags
+- Exports to CSV format
+- Uses Playwright for dynamic content loading
 
 ## Requirements
-- Python 3.x
-- pandas
-- beautifulsoup4
-- requests
+
+- Python 3.12+
+- uv (recommended) or pip
 
 ## Installation
 
 ### Using UV (recommended)
+
 ```bash
 uv sync
-uv run main.py
 ```
 
 ### Using pip
+
 ```bash
 pip install -r requirements.txt
-python main.py
 ```
 
 ## Usage
+
 ```bash
 uv run main.py
 ```
 
 Or with Python directly:
+
 ```bash
 python main.py
 ```
 
 ## Output
-Creates `quotes.csv` with columns: quote, author, tags
+
+Creates `quotes.csv` with the following columns:
+
+- `quote`: The quote text
+- `author`: The quote author
+- `tags`: Comma-separated tags
+
+## Project Structure
+
+```
+.
+├── main.py           # Main scraper script
+├── pyproject.toml   # Project configuration
+├── README.md        # This file
+└── .gitignore       # Git ignore patterns
 ```
 
-## 5. **Create requirements.txt**
-```
-pandas
-beautifulsoup4
-requests
+## License
+
+MIT License - see [LICENSE](LICENSE) for details.
